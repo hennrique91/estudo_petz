@@ -11,6 +11,7 @@
     --laranja: #FF6E22;
     --preto: #000000;
     --principal: 'Raleway', sans-serif;
+    --secundaria: 'Mochiy Pop One', sans-serif;
 
 }
 body{
@@ -64,5 +65,40 @@ align-items: center;
     display: flex;
 width: 200px;
 justify-content: space-between;
+font-weight: 700;
 
+}
+
+
+.secao_encontrar{
+
+    display: flex;
+    padding: 30px 0;
+}
+
+h1{
+
+    font-size: 50px;
+    
+}
+
+.esquerda1 p{
+    font-size: 20px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.botao{
+    
+padding: 15px;
+font-size: 20px;
+font-family: var(--secundaria);
+background: #FF9922;
+border-radius: 10px;
+color: var(--branco);
+
+}
+
+.esquerda1 .botao{
+    
 }
